@@ -1,0 +1,259 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: rgb(0, 131, 160);
+}
+body{
+    background-color: white;
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section {
+    padding-top: 20px;
+    background-color: rgb(0, 131, 160);
+    height: auto;
+    width: 320px;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+}
+
+.top-left h1 {
+    color: white;
+}
+
+#dashboardicon {
+    width: 40px;
+    height: 40px;
+    filter: invert(100%) sepia(5%) saturate(2815%) hue-rotate(230deg) brightness(114%) contrast(104%);
+}
+
+.top-left h1 {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+#other-icon {
+    width: 22px;
+    height: 22px;
+    filter: invert(100%) sepia(5%) saturate(2815%) hue-rotate(230deg) brightness(114%) contrast(104%);
+    ;
+}
+
+.middle-left {
+    margin: 30px 15px;
+}
+
+.middle-left a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 0;
+    padding-left: 10px;
+    color: white;
+    font-size: 13px;
+}
+
+.middle-left a:hover {
+    background-color: rgb(0, 85, 104);
+}
+
+.middle-left a h2 {
+    margin-left: 15px;
+}
+
+.bottom-left {
+    margin: 0 15px;
+}
+
+.bottom-left a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 0;
+    padding-left: 10px;
+    color: white;
+    font-size: 13px;
+}
+
+.bottom-left a:hover {
+    background-color: rgb(0, 85, 104);
+}
+
+.bottom-left a h2 {
+    margin-left: 15px;
+}
+
+.right-section {
+    width: 100%;
+}
+
+#other-icon-right {
+    width: 22px;
+    height: 22px;
+}
+
+.right-top{
+    width: auto;
+}
+
+.right-top-upper {
+    display: flex;
+    align-items: center;
+    margin: 25px 45px 10px 45px;
+    width: auto;
+}
+
+#site-search {
+    border-radius: 30px;
+    width: 45vw;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.right-top-upper-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 28vw;
+}
+
+.notification-icon {
+    margin-right: 30px;
+}
+
+#admin-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.right-top-upper-right h2 {
+    margin-left: 20px;
+}
+
+.right-top-lower {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#admin-image-welcome {
+    width: 90px;
+    margin: 0 10px 0 50px;
+}
+
+.admin-welcome-text {
+    display: grid;
+    grid-template: 50px 50px;
+}
+
+.right-top-lower-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 28vw;
+    margin-left: auto;
+}
+
+.right-top-lower-right a {
+    background-color: rgb(0, 131, 160);
+    width: 100px;
+    height: 38px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin: 0 15px;
+}
+
+.right-top-lower-right a:hover{
+    background-color: rgb(0, 85, 104);
+}
+
+.right-lower{
+    background-color: #ddd;
+    width: auto;
+    display: flex;
+    padding: 20px;
+}
+
+.right-lower h2{
+    margin:0 0 10px 0;
+}
+
+.project-area {
+    display: grid;
+    grid-template-rows: 200px 200px 250px;
+    grid-template-columns: 400px 400px;
+    gap: 20px 20px;
+}
+
+.grid-item {
+    background-color: white;
+    border-radius: 10px;
+    border-left: yellow solid 10px;
+    padding: 15px 25px;
+}
+
+.grid-item p {
+    margin-top: 10px;
+    line-height: 18px;
+}
+.right-end{
+    margin: 0 0 0 20px;
+}
+.announcement-area{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+.right-end-row p{
+    font-size: 13px;
+}
+.right-end-row hr{
+    margin: 10px 0;
+}
+.trending-area{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    align-items: center;
+    height: 100%;
+}
+.trending-details{
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+}
+
+.trending-details p{
+    font-size: 12px;
+}
+
+#trending{
+    margin: 20px 0;
+}
